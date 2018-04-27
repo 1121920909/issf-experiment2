@@ -1,0 +1,1233 @@
+2018-Apr-26 15:00:03 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:00:07 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        college0_.id as id1_0_0_,
+        college0_.name as name2_0_0_ 
+    from
+        college college0_ 
+    where
+        college0_.id=?
+2018-Apr-26 15:00:07 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 15:00:07 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 15:07:40 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:10:49 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:10:51 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        college0_.id as id1_0_0_,
+        college0_.name as name2_0_0_ 
+    from
+        college college0_ 
+    where
+        college0_.id=?
+2018-Apr-26 15:10:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 15:10:51 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 15:26:32 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:26:34 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        this_.id as id1_0_0_,
+        this_.name as name2_0_0_ 
+    from
+        college this_ 
+    where
+        (
+            1=1
+        )
+2018-Apr-26 15:26:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:26:35 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 15:27:44 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:27:46 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        this_.id as id1_0_0_,
+        this_.name as name2_0_0_ 
+    from
+        college this_ 
+    where
+        (
+            1=1
+        )
+2018-Apr-26 15:27:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:27:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 15:27:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_0_] : [INTEGER]) - [2]
+2018-Apr-26 15:27:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [计算机学院]
+2018-Apr-26 15:33:03 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:33:05 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        this_.id as id1_1_0_,
+        this_.name as name2_1_0_ 
+    from
+        major this_ 
+    where
+        (
+            1=1
+        )
+2018-Apr-26 15:33:06 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:33:06 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:33:06 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-26 15:33:06 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        college0_.id as id1_0_0_,
+        college0_.name as name2_0_0_ 
+    from
+        college college0_ 
+    where
+        college0_.id=?
+2018-Apr-26 15:33:06 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 15:33:06 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 15:36:25 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:36:26 PM [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@21a5fd96] to prepare test instance [com.zyp.issf.service.ServiceTest@5769e7ae]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'baseDao': Unsatisfied dependency expressed through method 'setSessionFactoryBase' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Cannot find the expected secondary table: no college available for com.zyp.issf.domain.Major
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:667) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:107) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Cannot find the expected secondary table: no college available for com.zyp.issf.domain.Major
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1702) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:107) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	... 24 more
+Caused by: org.hibernate.AnnotationException: Cannot find the expected secondary table: no college available for com.zyp.issf.domain.Major
+	at org.hibernate.cfg.Ejb3Column.getJoin(Ejb3Column.java:454) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.cfg.Ejb3Column.getTable(Ejb3Column.java:425) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.cfg.AnnotationBinder.bindManyToOne(AnnotationBinder.java:2934) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.cfg.AnnotationBinder.processElementAnnotations(AnnotationBinder.java:1776) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.cfg.AnnotationBinder.processIdPropertiesIfNotAlready(AnnotationBinder.java:924) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:751) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:249) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:222) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:83) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:418) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:87) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:691) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:726) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:535) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:519) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1761) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1698) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:107) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	... 24 more
+2018-Apr-26 15:37:08 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:37:10 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        this_.id as id1_0_0_,
+        this_.name as name2_0_0_ 
+    from
+        college this_ 
+    where
+        (
+            1=1
+        )
+2018-Apr-26 15:37:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:37:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 15:37:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_0_] : [INTEGER]) - [2]
+2018-Apr-26 15:37:11 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [计算机学院]
+2018-Apr-26 15:37:18 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:37:20 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        this_.id as id1_1_0_,
+        this_.name as name2_1_0_ 
+    from
+        major this_ 
+    where
+        (
+            1=1
+        )
+2018-Apr-26 15:37:20 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:37:20 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:37:20 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-26 15:37:20 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        college0_.id as id1_0_0_,
+        college0_.name as name2_0_0_ 
+    from
+        college college0_ 
+    where
+        college0_.id=?
+2018-Apr-26 15:37:20 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 15:37:20 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 15:37:56 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:37:58 PM [main] DEBUG org.hibernate.SQL - select this_.id as id1_1_0_, this_.name as name2_1_0_ from major this_ where (1=1)
+2018-Apr-26 15:37:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:37:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 15:37:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-26 15:37:58 PM [main] DEBUG org.hibernate.SQL - select college0_.id as id1_0_0_, college0_.name as name2_0_0_ from college college0_ where college0_.id=?
+2018-Apr-26 15:37:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 15:37:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 15:42:29 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 15:42:31 PM [main] DEBUG org.hibernate.SQL - select this_.id as id1_1_0_, this_.collegeId as collegeI2_1_0_, this_.name as name3_1_0_ from major this_ where (this_.collegeId=?)
+2018-Apr-26 15:42:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [0]
+2018-Apr-26 16:04:38 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 16:04:40 PM [main] DEBUG org.hibernate.SQL - select this_.id as id1_1_1_, this_.college as college3_1_1_, this_.name as name2_1_1_, college2_.id as id1_0_0_, college2_.name as name2_0_0_ from major this_ left outer join college college2_ on this_.college=college2_.id where (1=1)
+2018-Apr-26 16:05:44 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 16:05:46 PM [main] DEBUG org.hibernate.SQL - select this_.id as id1_1_0_, this_.name as name2_1_0_ from major this_ where (1=1)
+2018-Apr-26 16:05:46 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 16:05:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 16:05:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-26 16:05:47 PM [main] DEBUG org.hibernate.SQL - select college0_.id as id1_0_0_, college0_.name as name2_0_0_ from college college0_ where college0_.id=?
+2018-Apr-26 16:05:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 16:05:47 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 16:06:08 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 16:06:10 PM [main] DEBUG org.hibernate.SQL - select this_.id as id1_1_0_, this_.name as name2_1_0_ from major this_ where (1=1)
+2018-Apr-26 16:06:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 16:06:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 16:06:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-26 16:06:10 PM [main] DEBUG org.hibernate.SQL - select college0_.id as id1_0_0_, college0_.name as name2_0_0_ from college college0_ where college0_.id=?
+2018-Apr-26 16:06:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 16:06:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 16:11:56 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-26 16:11:58 PM [main] DEBUG org.hibernate.SQL - select this_.id as id1_2_0_, this_.age as age2_2_0_, this_.hobby as hobby3_2_0_, this_.name as name4_2_0_, this_.sex as sex5_2_0_ from student this_ where (1=1)
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [1]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_0_] : [VARCHAR]) - [13]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_0_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [1]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_0_] : [VARCHAR]) - [zzz]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_0_] : [VARCHAR]) - [男]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [2]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_0_] : [VARCHAR]) - [23]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_0_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [2]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_0_] : [VARCHAR]) - [yyy]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_0_] : [VARCHAR]) - [男]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [5]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_0_] : [VARCHAR]) - [12]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_0_] : [VARCHAR]) - [游戏 音乐旅游]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [5]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_0_] : [VARCHAR]) - [test]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_0_] : [VARCHAR]) - [男]
+2018-Apr-26 16:11:58 PM [main] DEBUG org.hibernate.SQL - select major0_.id as id1_1_0_, major0_.name as name2_1_0_ from major major0_ where major0_.id=?
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-26 16:11:58 PM [main] DEBUG org.hibernate.SQL - select college0_.id as id1_0_0_, college0_.name as name2_0_0_ from college college0_ where college0_.id=?
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-26 16:11:58 PM [main] DEBUG org.hibernate.SQL - select major0_.id as id1_1_0_, major0_.name as name2_1_0_ from major major0_ where major0_.id=?
+2018-Apr-26 16:11:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 10:12:22 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 10:12:24 AM [main] DEBUG org.hibernate.SQL - select this_.id as id1_1_0_, this_.name as name2_1_0_ from major this_ where (1=1)
+2018-Apr-27 10:12:24 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:12:24 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:12:24 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 10:12:24 AM [main] DEBUG org.hibernate.SQL - select college0_.id as id1_0_0_, college0_.name as name2_0_0_ from college college0_ where college0_.id=?
+2018-Apr-27 10:12:24 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 10:12:24 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 10:12:37 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 10:12:39 AM [main] DEBUG org.hibernate.SQL - select this_.id as id1_2_0_, this_.age as age2_2_0_, this_.hobby as hobby3_2_0_, this_.name as name4_2_0_, this_.sex as sex5_2_0_ from student this_ where (1=1)
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_0_] : [VARCHAR]) - [13]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_0_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_0_] : [VARCHAR]) - [zzz]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_0_] : [VARCHAR]) - [男]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [2]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_0_] : [VARCHAR]) - [23]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_0_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [2]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_0_] : [VARCHAR]) - [yyy]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_0_] : [VARCHAR]) - [男]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [5]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_0_] : [VARCHAR]) - [12]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_0_] : [VARCHAR]) - [游戏 音乐旅游]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_0_] : [INTEGER]) - [5]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_0_] : [VARCHAR]) - [test]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_0_] : [VARCHAR]) - [男]
+2018-Apr-27 10:12:40 AM [main] DEBUG org.hibernate.SQL - select major0_.id as id1_1_0_, major0_.name as name2_1_0_ from major major0_ where major0_.id=?
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 10:12:40 AM [main] DEBUG org.hibernate.SQL - select college0_.id as id1_0_0_, college0_.name as name2_0_0_ from college college0_ where college0_.id=?
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 10:12:40 AM [main] DEBUG org.hibernate.SQL - select major0_.id as id1_1_0_, major0_.name as name2_1_0_ from major major0_ where major0_.id=?
+2018-Apr-27 10:12:40 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 10:17:39 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 10:17:42 AM [main] DEBUG org.hibernate.SQL - select this_.id as id1_2_2_, this_.age as age2_2_2_, this_.hobby as hobby3_2_2_, this_.major_id as major_id6_2_2_, this_.name as name4_2_2_, this_.sex as sex5_2_2_, major2_.id as id1_1_0_, major2_.college_id as college_3_1_0_, major2_.name as name2_1_0_, college3_.id as id1_0_1_, college3_.name as name2_0_1_ from student this_ left outer join major major2_ on this_.major_id=major2_.id left outer join college college3_ on major2_.college_id=college3_.id where (1=1)
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_2_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_2_] : [VARCHAR]) - [13]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_2_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_2_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_2_] : [VARCHAR]) - [zzz]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_2_] : [VARCHAR]) - [男]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_2_] : [INTEGER]) - [2]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_2_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_2_] : [VARCHAR]) - [男]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_2_] : [INTEGER]) - [5]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_2_] : [VARCHAR]) - [12]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_2_] : [VARCHAR]) - [游戏 音乐旅游]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_2_] : [INTEGER]) - [1]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_2_] : [VARCHAR]) - [test]
+2018-Apr-27 10:17:42 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_2_] : [VARCHAR]) - [男]
+2018-Apr-27 10:28:13 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 10:28:15 AM [main] DEBUG org.hibernate.SQL - select this_.id as id1_0_0_, this_.name as name2_0_0_ from college this_ where (1=1)
+2018-Apr-27 10:28:16 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:16 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 10:28:16 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_0_] : [INTEGER]) - [2]
+2018-Apr-27 10:28:16 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [计算机学院]
+2018-Apr-27 10:28:26 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 10:28:28 AM [main] DEBUG org.hibernate.SQL - select this_.id as id1_2_2_, this_.age as age2_2_2_, this_.hobby as hobby3_2_2_, this_.major_id as major_id6_2_2_, this_.name as name4_2_2_, this_.sex as sex5_2_2_, major2_.id as id1_1_0_, major2_.college_id as college_3_1_0_, major2_.name as name2_1_0_, college3_.id as id1_0_1_, college3_.name as name2_0_1_ from student this_ left outer join major major2_ on this_.major_id=major2_.id left outer join college college3_ on major2_.college_id=college3_.id where (1=1)
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_2_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_2_] : [VARCHAR]) - [13]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_2_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_2_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_2_] : [VARCHAR]) - [zzz]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_2_] : [VARCHAR]) - [男]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_2_] : [INTEGER]) - [2]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_2_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_2_] : [VARCHAR]) - [男]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_2_] : [INTEGER]) - [5]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_2_] : [VARCHAR]) - [12]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_2_] : [VARCHAR]) - [游戏 音乐旅游]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_2_] : [INTEGER]) - [1]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_2_] : [VARCHAR]) - [test]
+2018-Apr-27 10:28:28 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_2_] : [VARCHAR]) - [男]
+2018-Apr-27 10:45:08 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 10:47:54 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 10:54:50 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:00:34 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:03:56 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:13:28 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:16:12 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:16:15 AM [main] DEBUG org.hibernate.SQL - select college0_.id as id1_0_, college0_.name as name2_0_ from college college0_
+2018-Apr-27 11:16:15 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [1]
+2018-Apr-27 11:16:15 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 11:16:15 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [2]
+2018-Apr-27 11:16:15 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [计算机学院]
+2018-Apr-27 11:19:21 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:19:45 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:20:29 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:21:38 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:22:21 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:22:23 AM [main] DEBUG org.hibernate.SQL - select college0_.id as id1_0_, college0_.name as name2_0_ from college college0_
+2018-Apr-27 11:22:23 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [1]
+2018-Apr-27 11:22:23 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 11:22:23 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [2]
+2018-Apr-27 11:22:23 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [计算机学院]
+2018-Apr-27 11:22:46 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:22:48 AM [main] DEBUG org.hibernate.SQL - 
+    select
+        college0_.id as id1_0_,
+        college0_.name as name2_0_ 
+    from
+        college college0_
+2018-Apr-27 11:22:48 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [1]
+2018-Apr-27 11:22:48 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 11:22:48 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_] : [INTEGER]) - [2]
+2018-Apr-27 11:22:48 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_] : [VARCHAR]) - [计算机学院]
+2018-Apr-27 11:41:06 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:41:48 AM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 11:41:51 AM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_,
+        major0_.college_id as college_3_1_,
+        major0_.name as name2_1_ 
+    from
+        major major0_
+2018-Apr-27 11:41:51 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_1_] : [INTEGER]) - [1]
+2018-Apr-27 11:41:51 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_] : [INTEGER]) - [1]
+2018-Apr-27 11:41:51 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 11:41:51 AM [main] DEBUG org.hibernate.SQL - 
+    select
+        college0_.id as id1_0_0_,
+        college0_.name as name2_0_0_ 
+    from
+        college college0_ 
+    where
+        college0_.id=?
+2018-Apr-27 11:41:51 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 11:41:51 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_0_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 14:30:18 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 14:33:39 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 14:33:43 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [13]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [zzz]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 14:33:43 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 14:33:43 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 14:34:16 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 14:34:19 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [13]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [zzz]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 14:34:19 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 14:34:19 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 14:51:41 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 14:51:48 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [13]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [zzz]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 14:51:49 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 14:51:49 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 14:52:30 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 14:52:32 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [13]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [zzz]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 14:52:32 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 14:52:32 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        student 
+    set
+        name=?,
+        major_id=?,
+        sex=?,
+        hobby=?,
+        age=? 
+    where
+        id=?
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [studd]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [INTEGER] - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [男]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [游戏 音乐 ]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [13]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [6] as [INTEGER] - [1]
+2018-Apr-27 14:52:32 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [13]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [studd]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 14:52:32 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 14:52:32 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:00:23 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:00:30 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:00:30 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:00:30 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:01:06 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:01:09 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:01:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:01:10 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:01:10 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:07:13 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:07:16 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:07:17 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:07:17 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2018-Apr-27 15:07:17 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+2018-Apr-27 15:07:17 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        student
+        (age, hobby, name, sex, id) 
+    values
+        (?, ?, ?, ?, ?)
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [23]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [游戏 音乐 旅游 ]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [tttt]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [男]
+2018-Apr-27 15:07:17 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [1]
+2018-Apr-27 15:08:20 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:08:23 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:08:23 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:08:23 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2018-Apr-27 15:08:23 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+2018-Apr-27 15:08:23 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        student
+        (age, hobby, name, sex, id) 
+    values
+        (?, ?, ?, ?, ?)
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [23]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [游戏 音乐 旅游 ]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [tttt]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [男]
+2018-Apr-27 15:08:23 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [2]
+2018-Apr-27 15:08:55 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:08:58 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:08:58 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:08:58 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2018-Apr-27 15:08:58 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+2018-Apr-27 15:08:58 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        student
+        (age, hobby, name, sex, id) 
+    values
+        (?, ?, ?, ?, ?)
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [23]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [游戏 音乐 旅游 ]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [tttt]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [男]
+2018-Apr-27 15:08:58 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [3]
+2018-Apr-27 15:10:55 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:10:59 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:10:59 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:10:59 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2018-Apr-27 15:10:59 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+2018-Apr-27 15:10:59 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        student
+        (age, hobby, name, sex, id) 
+    values
+        (?, ?, ?, ?, ?)
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [23]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [游戏 音乐 旅游 ]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [tttt]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [男]
+2018-Apr-27 15:10:59 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [4]
+2018-Apr-27 15:12:06 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:12:09 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:12:09 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:12:09 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2018-Apr-27 15:12:09 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+2018-Apr-27 15:12:09 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        student
+        (age, hobby, name, sex, id) 
+    values
+        (?, ?, ?, ?, ?)
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [23]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [游戏 音乐 旅游 ]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [tttt]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [男]
+2018-Apr-27 15:12:09 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [5]
+2018-Apr-27 15:12:47 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:12:50 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [13]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 ]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [studd]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:12:50 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:12:50 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:12:59 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:13:01 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:13:02 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:13:02 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2018-Apr-27 15:13:02 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+2018-Apr-27 15:13:02 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        student
+        (age, hobby, name, sex, id) 
+    values
+        (?, ?, ?, ?, ?)
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [23]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [游戏 音乐 旅游 ]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [tttt]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [男]
+2018-Apr-27 15:13:02 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [6]
+2018-Apr-27 15:13:30 PM [main] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - maxIdle is deprecated
+2018-Apr-27 15:13:33 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        student0_.id as id1_2_,
+        student0_.age as age2_2_,
+        student0_.hobby as hobby3_2_,
+        student0_.major_id as major_id6_2_,
+        student0_.name as name4_2_,
+        student0_.sex as sex5_2_ 
+    from
+        student student0_ 
+    where
+        student0_.id=?
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_2_] : [INTEGER]) - [2]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([age2_2_] : [VARCHAR]) - [23]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([hobby3_2_] : [VARCHAR]) - [游戏 音乐 旅游 ]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([major_id6_2_] : [INTEGER]) - [1]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name4_2_] : [VARCHAR]) - [yyy]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([sex5_2_] : [VARCHAR]) - [男]
+2018-Apr-27 15:13:33 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        major0_.id as id1_1_0_,
+        major0_.college_id as college_3_1_0_,
+        major0_.name as name2_1_0_,
+        college1_.id as id1_0_1_,
+        college1_.name as name2_0_1_ 
+    from
+        major major0_ 
+    left outer join
+        college college1_ 
+            on major0_.college_id=college1_.id 
+    where
+        major0_.id=?
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [1]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([id1_0_1_] : [INTEGER]) - [1]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([college_3_1_0_] : [INTEGER]) - [1]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_1_0_] : [VARCHAR]) - [信息管理与信息系统]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicExtractor - extracted value ([name2_0_1_] : [VARCHAR]) - [管理学院]
+2018-Apr-27 15:13:33 PM [main] DEBUG org.hibernate.SQL - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2018-Apr-27 15:13:33 PM [main] DEBUG org.hibernate.SQL - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+2018-Apr-27 15:13:33 PM [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        student
+        (age, hobby, name, sex, id) 
+    values
+        (?, ?, ?, ?, ?)
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [23]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [游戏 音乐 旅游 ]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [tttt]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [男]
+2018-Apr-27 15:13:33 PM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [INTEGER] - [7]
