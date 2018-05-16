@@ -1,21 +1,14 @@
 <%--
-&lt;%&ndash;
   Created by IntelliJ IDEA.
   User: ZYP
   Date: 2018/4/28
   Time: 10:38
   To change this template use File | Settings | File Templates.
-&ndash;%&gt;
+--%>
 <%@ page import="java.sql.*" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.Dictionary" %>
-<%@ page import="java.util.Hashtable" %>&lt;%&ndash;
-  Created by IntelliJ IDEA.
-  User: zyp
-  Date: 18-4-18
-  Time: 下午7:26
-  To change this template use File | Settings | File Templates.
-&ndash;%&gt;
+<%@ page import="java.util.Hashtable" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -122,4 +115,4 @@
 </div>
 </body>
 </html>
---%>
+

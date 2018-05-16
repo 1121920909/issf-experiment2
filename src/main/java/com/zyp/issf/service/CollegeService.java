@@ -2,6 +2,7 @@ package com.zyp.issf.service;
 
 
 import com.zyp.issf.dao.BaseDao;
+import com.zyp.issf.dao.CollegeDao;
 import com.zyp.issf.domain.College;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.annotations.common.util.impl.LoggerFactory;
@@ -16,12 +17,10 @@ import java.util.List;
 @Transactional
 public class CollegeService {
     @Autowired
-    private BaseDao dao;
+    private CollegeDao dao;
 
     public List<College> findCollege() {
-        HibernateTemplate template = dao.getHibernateTemplate();
-        System.out.println(template);
-        return template.findByExample(new College());
+        return dao.findAllCollege();
     }
 
 }

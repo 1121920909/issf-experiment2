@@ -43,4 +43,11 @@ public class StudentDaoImpl implements StudentDao {
         return (int)sessionFactory.getCurrentSession()
                 .save(student);
     }
+
+    @Override
+    public int deleteStudent(Student student) {
+        sessionFactory.getCurrentSession()
+                .delete(student);
+        return 1;
+    }
 }

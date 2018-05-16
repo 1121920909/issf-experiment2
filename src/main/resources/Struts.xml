@@ -13,5 +13,6 @@
     <constant name="struts.tag.altSyntax" value="true"/>
     <constant name="struts.devMode" value="false"/>
     <package name="basePackage" extends="struts-default">
+
     </package>
 </struts>
