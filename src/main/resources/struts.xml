@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <constant name="struts.objectFactory" value="spring"/>
+    <constant name="struts.action.extension" value="action"/>
+    <constant name="struts.configuration.xml.reload" value="true"/>
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+    <constant name="struts.i18n.reload" value="true"/>
+    <constant name="struts.tag.altSyntax" value="true"/>
+    <constant name="struts.devMode" value="true"/>
+    <package name="basePackage" extends="struts-default">
+        <action name="test" class="testAction">
+            <result name="success">index.jsp</result>
+        </action>
+        <action name="index" class="studentInfoAction" method="index">
+            <result name="success">student_info.jsp</result>
+        </action>
+        <action name="update" class="studentInfoAction" method="update">
+            <result type="redirectAction" name="success">index</result>
+        </action>
+        <action name="delete" class="studentInfoAction" method="delete">
+            <result type="redirectAction" name="success">index</result>
+        </action>
+        <action name="insert" class="studentInfoAction" method="insert">
+            <result type="redirectAction" name="success">index</result>
+        </action>
+    </package>
+</struts>

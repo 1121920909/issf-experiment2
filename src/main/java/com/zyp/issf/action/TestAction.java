@@ -15,4 +15,9 @@ public class TestAction extends ActionSupport {
     System.out.println("test");
     return SUCCESS;
   }
+
+  public String test() throws Exception{
+    System.out.println("test");
+    return SUCCESS;
+  }
 }

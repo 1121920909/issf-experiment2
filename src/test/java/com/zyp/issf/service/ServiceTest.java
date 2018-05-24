@@ -36,11 +36,5 @@ public class ServiceTest {
         }
     }
 
-    @Test
-    public void studentServiceTest() {
-        List<Student> students = studentService.findStudent();
-        for (Student s : students) {
-            System.out.println(s);
-        }
-    }
+
 }
