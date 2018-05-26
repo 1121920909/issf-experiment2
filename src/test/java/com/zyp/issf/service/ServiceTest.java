@@ -30,7 +30,7 @@ public class ServiceTest {
 
     @Test
     public void majorServiceTest() {
-        List<Major> majors = majorService.findMajor();
+        List<Major> majors = majorService.findAllMajor();
         for (Major m : majors) {
             System.out.println(m);
         }

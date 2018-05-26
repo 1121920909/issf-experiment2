@@ -21,4 +21,12 @@ public class MajorDaoImpl implements MajorDao {
                 .createQuery("from Major",Major.class)
                 .list();
     }
+
+    @Override
+    public Major findMajor(String name) {
+        return sessionFactory.getCurrentSession()
+                .createQuery("from Major where name = :name",Major.class)
+                .setParameter("name",name)
+                .getSingleResult();
+    }
 }

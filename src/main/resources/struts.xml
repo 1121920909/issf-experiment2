@@ -19,6 +19,9 @@
         <action name="index" class="studentInfoAction" method="index">
             <result name="success">student_info.jsp</result>
         </action>
+        <action name="updateView" class="studentInfoAction" method="updateView">
+            <result name="success">student_update.jsp</result>
+        </action>
         <action name="update" class="studentInfoAction" method="update">
             <result type="redirectAction" name="success">index</result>
         </action>

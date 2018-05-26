@@ -60,7 +60,7 @@ public class Student {
     }
 
     @ManyToOne(targetEntity = Major.class)
-    @JoinColumn(name = "major_id",updatable = false,insertable = false)
+    @JoinColumn(name = "major_id")
     public Major getMajor() {
         return major;
     }

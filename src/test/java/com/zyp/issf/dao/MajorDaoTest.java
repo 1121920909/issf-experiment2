@@ -21,6 +21,10 @@ public class MajorDaoTest {
         for (Major m : majors) {
             System.out.println(m);
         }
+    }
 
+    @Test
+    public void findMajorTest() {
+        System.out.println(dao.findMajor("信息管理与信息系统"));
     }
 }

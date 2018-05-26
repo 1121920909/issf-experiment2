@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,11 +27,11 @@ public class StudentInfoAction extends ActionSupport {
   private String name;
   private String age;
   private String sex;
-  private Major major;
-  private College college;
+  private String major;
+  private String college;
   private String hobby;
-  private List<Major> majorList;
-  private List<College> collegeList;
+  private List<String> majorList;
+  private List<String> collegeList;
   private List<Student> studentsList;
   @Autowired
   private CollegeService collegeService;
@@ -38,28 +39,68 @@ public class StudentInfoAction extends ActionSupport {
   private MajorService majorService;
   @Autowired
   private StudentService studentService;
+
   public String index() throws Exception {
-    System.out.println("index");
+    majorList = new ArrayList<>();
+    collegeList = new ArrayList<>();
     studentsList = studentService.findAllStudent();
-    majorList = majorService.findMajor();
-    collegeList = collegeService.findCollege();
+    for (Major major : majorService.findAllMajor()) {
+      majorList.add(major.getName());
+    }
+    for (College college : collegeService.findCollege()) {
+      collegeList.add(college.getName());
+    }
     return SUCCESS;
   }
 
   public String insert() throws Exception {
+    student = new Student();
+    student.setName(name);
+    student.setAge(age);
+    student.setSex(sex);
+    student.setHobby(hobby);
+    student.setMajor(majorService.findMajor(major));
+    System.out.println("***********\n" + major + "\n************");
+    System.out.println(majorService.findMajor(major));
     studentService.insertStudent(student);
     return SUCCESS;
   }
 
   public String update() throws Exception {
+    student = studentService.findStudent(id);
+    student.setName(name);
+    student.setAge(age);
+    student.setSex(sex);
+    student.setHobby(hobby);
+    student.setMajor(majorService.findMajor(major));
+    System.out.println("**********\n" + student + "\n**********");
     studentService.updateStudent(student);
     return SUCCESS;
   }
 
   public String delete() throws Exception {
+    student = studentService.findStudent(id);
     studentService.deleteStudent(student);
     return SUCCESS;
   }
+
+  public String updateView() throws Exception {
+    majorList = new ArrayList<>();
+    collegeList = new ArrayList<>();
+    for (Major major : majorService.findAllMajor()) {
+      majorList.add(major.getName());
+    }
+    for (College college : collegeService.findCollege()) {
+      collegeList.add(college.getName());
+    }
+    student = studentService.findStudent(id);
+    return SUCCESS;
+  }
+
+  public String[] getHobbyChoose(){
+    return student.getHobby().split(", ");
+  }
+
 
   public int getId() {
     return id;
@@ -93,19 +134,19 @@ public class StudentInfoAction extends ActionSupport {
     this.sex = sex;
   }
 
-  public Major getMajor() {
+  public String getMajor() {
     return major;
   }
 
-  public void setMajor(Major major) {
+  public void setMajor(String major) {
     this.major = major;
   }
 
-  public College getCollege() {
+  public String getCollege() {
     return college;
   }
 
-  public void setCollege(College college) {
+  public void setCollege(String college) {
     this.college = college;
   }
 
@@ -117,20 +158,44 @@ public class StudentInfoAction extends ActionSupport {
     this.hobby = hobby;
   }
 
-  public List<Major> getMajorList() {
+  public List<String> getMajorList() {
     return majorList;
   }
 
-  public void setMajorList(List<Major> majorList) {
+  public void setMajorList(List<String> majorList) {
     this.majorList = majorList;
   }
 
-  public List<College> getCollegeList() {
+  public List<String> getCollegeList() {
     return collegeList;
   }
 
-  public void setCollegeList(List<College> collegeList) {
+  public void setCollegeList(List<String> collegeList) {
     this.collegeList = collegeList;
+  }
+
+  public CollegeService getCollegeService() {
+    return collegeService;
+  }
+
+  public void setCollegeService(CollegeService collegeService) {
+    this.collegeService = collegeService;
+  }
+
+  public MajorService getMajorService() {
+    return majorService;
+  }
+
+  public void setMajorService(MajorService majorService) {
+    this.majorService = majorService;
+  }
+
+  public StudentService getStudentService() {
+    return studentService;
+  }
+
+  public void setStudentService(StudentService studentService) {
+    this.studentService = studentService;
   }
 
   public List<Student> getStudentsList() {

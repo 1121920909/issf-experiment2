@@ -24,6 +24,40 @@
                 <s:submit key="添加"/>
             </s:form>
         </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>姓名</th>
+                        <th>年龄</th>
+                        <th>性别</th>
+                        <th>爱好</th>
+                        <th>学院</th>
+                        <th>专业</th>
+                        <th>修改与删除</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <s:iterator value="studentsList" var="student">
+                        <tr>
+                            <th><s:property value="#student.name"/> </th>
+                            <th><s:property value="#student.age"/> </th>
+                            <th><s:property value="#student.sex"/> </th>
+                            <th><s:property value="#student.hobby"/> </th>
+                            <th><s:property value="#student.major.college.name"/> </th>
+                            <th><s:property value="#student.major.name" /></th>
+                            <s:url action="delete" var="deleteStu">
+                                <s:param name="id" value="#student.id"/>
+                            </s:url>
+                            <s:url action="updateView" var="updateView">
+                                <s:param name="id" value="#student.id"/>
+                            </s:url>
+                            <th><s:a href="%{deleteStu}">删除</s:a> <s:a href="%{updateView}">修改</s:a></th>
+                        </tr>
+                    </s:iterator>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
 

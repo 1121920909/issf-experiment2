@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface MajorDao {
     List<Major> findAllMajor();
+
+    Major findMajor(String name);
 }

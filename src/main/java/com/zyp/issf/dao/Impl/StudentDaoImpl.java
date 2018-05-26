@@ -31,11 +31,8 @@ public class StudentDaoImpl implements StudentDao {
 
     @Override
     public int updateStudent(Student student) {
-        return sessionFactory.getCurrentSession()
-                    .createQuery("update Student s set s.name=:name,s.major=:major, " +
-                        "s.sex = :sex, s.hobby=:hobby, s.age=:age where s.id=:id")
-                    .setProperties(student)
-                    .executeUpdate();
+        sessionFactory.getCurrentSession().update(student);
+        return 1;
     }
 
     @Override

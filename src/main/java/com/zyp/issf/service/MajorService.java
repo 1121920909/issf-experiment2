@@ -17,7 +17,11 @@ public class MajorService {
    @Autowired
     private MajorDao majorDao;
 
-    public List<Major> findMajor() {
+    public List<Major> findAllMajor() {
         return  majorDao.findAllMajor();
+    }
+
+    public Major findMajor(String name) {
+        return majorDao.findMajor(name);
     }
 }
